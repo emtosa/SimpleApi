@@ -9,7 +9,7 @@ public class UnitTest1
     public void GetReturnsMyName()
     {
         var returnValue = controller.Get(1);
-        Assert.Equal("Tosa Ojiru", returnValue.Value);
+        Assert.Equal("Break Test", returnValue.Value);
     }
 
     [Fact]
